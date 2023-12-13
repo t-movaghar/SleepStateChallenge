@@ -65,7 +65,7 @@ Data varies wildly between patients.
 
   Training was stopped arbitrarily.
 
-  The features derived from the train_series.parquet were split into testing and validation datasets, with witch the training/validation loss was derived.
+  The features derived from the train_series.parquet were split into testing and validation datasets, with which the training/validation loss was derived.
 
 ### Performance Comparison
 

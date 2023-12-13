@@ -40,9 +40,13 @@ Data varies wildly between patients.
 ### Problem Formulation
 
   Features extracted from the accelerometer data (mean, max, and variance) were used as the input to my model. For supervised training, corresponding signals (onset/wake) would also be considered.
-  The output was, ideally, a predicted set of signals corresponding to the features extracted from my testing dataset based on the associations made during training.
-  The first neural network I attempted was composed of several dense layers, with dropout layers added to avoid overfitting and hidden layers employing ReLU activation. The output layer used the sigmoid activation function, and the model was compiled using the Adam optimizer and binary cross-entropy loss. Training was conducted with a batch size of 2048 for 10 epochs.
-  The second neural network I attempted was composed of several dense layers employing ReLU activation. The output layer used the sigmoid activation function, and the model was compiled using the rmsprop optimizer and binary cross-entropy loss.
+  The output was, ideally, a predicted set of signals corresponding to the features extracted from my testing dataset based on the associations made during training.  
+  
+  The first neural network I attempted was composed of several dense layers, with dropout layers added to avoid overfitting and hidden layers employing ReLU activation. The output layer used the sigmoid activation function, and the model was compiled using the Adam optimizer and binary cross-entropy loss.  
+  
+  The second neural network I attempted was composed of several dense layers employing ReLU activation. The output layer used the sigmoid activation function, and the model was compiled using the rmsprop optimizer and binary cross-entropy loss.  
+  
+  Training was conducted with a batch size of 2048 for 10 epochs for both models.
 
 ### Training
 

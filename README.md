@@ -76,7 +76,7 @@ Data varies wildly between patients.
 
 Sleep contributes to the maintinence of a healthy mood, body weight, and functioning immune system, to name a few. As such, finding ways to accurately predict sleep onset/wakeup times has a wide range of implications for future study and would help us gain valuable insights into the role of sleep in more niche aspects of human health. From here, I'd be interested in attempting future projects involving the role of the circadian rhythm on affective disorders such as depression or bipolar disorder.
 
-Considering the state of my project as it is, my goal for the future will be to work to improve the results I have already concluded. I would like to incorporate different methods in order to determine a better-fit model, as well as refine my downsampling process to incorporate more patient data. Also, refining my performance comparisons will be necessary.
+* Considering the state of my project as it is, my goal for the future will be to work to improve the results I have already concluded. I would like to incorporate different methods in order to determine a better-fit model, as well as refine my downsampling process to incorporate more patient data. Also, refining my performance comparisons will be necessary.
 
 ## To reproduce results
 To reproduce results, ensure your train_series.parquet and train_events.csv have been downsampled to only include every 10th group of unique patient data.
@@ -108,7 +108,7 @@ All packages can be installed through pip
 ### Data
 
 The data necessary to complete this project can be found here:
-https://www.kaggle.com/competitions/child-mind-institute-detect-sleep-states/data
+* https://www.kaggle.com/competitions/child-mind-institute-detect-sleep-states/data
 
 ## Citations
 
